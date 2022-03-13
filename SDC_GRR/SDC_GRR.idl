@@ -1,0 +1,46 @@
+// SDC_GRR.idl : SDC_GRR.exe에 대한 형식 라이브러리 소스
+
+// 이 파일은 MIDL 컴파일러에 의해 처리되어
+// 형식 라이브러리(SDC_GRR.tlb)를 생성합니다.
+
+#include "olectl.h"
+[ uuid(47BC0328-B533-463A-95A5-F1B0C7A8B257), version(1.0) ]
+library SDC_GRR
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CSDC_GRRDoc의 기본 디스패치 인터페이스
+	
+	[ uuid(544909A9-A5EE-4EE2-B44F-AE4B18AB469B) ]
+	dispinterface ISDC_GRR
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CSDC_GRRDoc의 클래스 정보
+	
+	[ uuid(2C049595-793A-4542-98B9-CE4247B304AF) ]
+	coclass SDC_GRR
+	{
+		[default] dispinterface ISDC_GRR;
+	};
+	//  PropertySetting의 기본 디스패치 인터페이스입니다.
+		
+	[ uuid(23EE47A6-B3C3-4FC2-997A-020343919E4F) ]
+	dispinterface IPropertySetting
+	{
+		properties:
+		methods:
+	};
+
+	//  PropertySetting의 클래스 정보입니다.
+
+	[ uuid(3B4B91B1-490B-4928-A64C-A658DBD4362A) ]
+	coclass PropertySetting
+	{
+		[default] dispinterface IPropertySetting;
+	};
+};

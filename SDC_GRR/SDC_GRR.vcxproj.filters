@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ChartCtrl">
+      <UniqueIdentifier>{7414afa3-5267-4928-a3b6-79b206de88a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SDC_GRR.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SDC_GRRDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgProxy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Calculation.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultDialog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryConverting_Moon.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartAxisLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBalloonLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartBarSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCandlestickSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCrossHairCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDateTimeAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartDragLineCursor.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartFont.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGanttSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGradient.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartGrid.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLabel.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLegend.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLineSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartLogarithmicAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartMouseListener.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsArray.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartPointsSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartScrollBar.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSerieBase.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSeriesMouseListener.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartStandardAxis.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartString.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartSurfaceSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartTitle.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartXYSerie.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\PointsOrdering.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\stdafx.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="ChartCtrl_source\ChartCtrl.h">
+      <Filter>ChartCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertySetting.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SDC_GRR.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SDC_GRRDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgProxy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Calculation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultDialog.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryConverting_Moon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartAxisLabel.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartBarSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCandlestickSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCrossHairCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDateTimeAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartDragLineCursor.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartFont.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGanttSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGradient.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartGrid.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLegend.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLineSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartLogarithmicAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartPointsSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartScrollBar.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartStandardAxis.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartSurfaceSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartTitle.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartXYSerie.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="ChartCtrl_source\ChartCtrl.cpp">
+      <Filter>ChartCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertySetting.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="SDC_GRR.idl">
+      <Filter>소스 파일</Filter>
+    </Midl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDC_GRR.reg" />
+    <None Include="res\SDC_GRR.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartBalloonLabel.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartLabel.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartPointsArray.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ChartCtrl_source\ChartSerieBase.inl">
+      <Filter>ChartCtrl</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SDC_GRR.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\SDC_GRR.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Checklist1.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
